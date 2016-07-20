@@ -45,11 +45,15 @@ return [
             \Zend\Db\Adapter\Adapter::class => \Zend\Db\Adapter\AdapterServiceFactory::class,
         ],
         // to allow other adapter to be called by
+        
         // $sm->get('db1') or $sm->get('db2') based on the adapters config.
+        
         'abstract_factories' => [
             'Zend\Db\Adapter\AdapterAbstractServiceFactory',
         ],
     ],
+    
+    
     'db' => [
         'driver'    => 'Pdo',
         'dsn'       => 'mysql:dbname=zf2_db;host=localhost;charset=utf8;',
