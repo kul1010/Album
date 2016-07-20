@@ -25,6 +25,7 @@ return [
 
 /*========================================================*/
 change your config/autoload/global.php according to below files
+
 <?php
 /**
  * Global Configuration Override
@@ -78,7 +79,7 @@ return [
 
 ];
 
-   
+ ?>  
 
 Database Setup
 
@@ -88,3 +89,4 @@ Usage
 and execute your new Album module at Browser
 
 your-domain-name/album
+your-domain-name/album/add
